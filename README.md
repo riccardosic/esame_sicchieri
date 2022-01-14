@@ -38,7 +38,7 @@ php artisan serve
 ## indicazioni 
 
 
-per l'esecuzione della prova ho creato una tabella chiamata **_lands_** con tutti i campi citati sopra e  successivamente, con il comando php artisan make:model **_Land_**, il relativo modello chiamato Land.
+per l'esecuzione della prova ho creato una tabella chiamata **_lands_** con tutti i campi citati sopra e  successivamente, con il comando php artisan make:model Land, il relativo modello chiamato **_Land_**.
 
 inoltre ho creato differenti route API rispettando i principi rest:
 - GET `/api/lands` - ottiene la lista dei terreni esistenti
