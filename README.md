@@ -38,10 +38,17 @@ php artisan serve
 ## indicazioni 
 
 
-per l'esecuzione della prova ho creato una tabella chiamata lands con tutti i campi citati sopra e  successivamente, con il comando php artisan make:model Land, il relativo modello chiamato Land.
+per l'esecuzione della prova ho creato una tabella chiamata **_lands_** con tutti i campi citati sopra e  successivamente, con il comando php artisan make:model **_Land_**, il relativo modello chiamato Land.
+
 inoltre ho creato differenti route API rispettando i principi rest:
 - GET `/api/lands` - ottiene la lista dei terreni esistenti
 - GET `/api/lands/{id}` - ottiente un terreno tramite il suo ID
 - POST `/api/lands` - crea un nuovo terreno
 - PUT  `/api/lands/{id}` - aggiorna un terreno tramite il suo ID
 - DELETE `/api/lands/{id}` - elimina un suo terreno tramite il suo ID
+
+le route client realizzate sono:
+- /home - si visualizza tutti i terreni aggiunti in ordine di pubblicazione
+- /create - si visualizza una form per aggiungere un nuovo terreno
+- /detail/:id - si visualizza il dettaglio di un preciso terreno
+- /edit/:id - si visualizza una form dove si potrà modificare i dati relativi a un singolo terreno
