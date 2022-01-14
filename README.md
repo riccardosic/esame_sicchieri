@@ -1,6 +1,6 @@
 # esame
 
-La startup Treebu vuole realizzare una nuova piattaforma dove catalogare a livello nazionale le terre incolte sooto il nome di banca della terra.
+La startup Treebu vuole realizzare una nuova piattaforma dove catalogare a livello nazionale le terre incolte sotto il nome di **banca della terra**.
 La piattaforma dovrà permettere di inserire, visionare e modificare la proprietà di ogni terriero, rendendola disponibile alla coltivavione o altro uso.
 
 In particolare, ogni terreno agricolo dovrà essere corredato dai seguenti dati:
@@ -28,7 +28,7 @@ yarn install
 yarn serve
 ```
 
-Nellla cartella server, modificare il file '.env' inserendo il nome del database, poi eseguire i comandi da terminale:
+Nellla cartella server, modificare il file __'.env'__ inserendo il nome del database, poi eseguire i comandi da terminale:
 ```
 composer update
 php artisan migrate
